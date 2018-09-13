@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aportar</title>
+    <link rel="stylesheet" href="assets/materialicons">
+    <link rel="stylesheet" href="assets/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="assets/my.css">
+    <script defer src="assets/material.min.js"></script>
+    <script defer src="assets/my.js"></script>
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+              <span class="mdl-layout-title"><a style="color:white;text-decoration: none" href="./">ProfeAPP</a></span>
+              <div class="mdl-layout-spacer"></div>
+              <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <a class="mdl-navigation__link" href="./aportar.html">APORTAR</a>
+                <a class="mdl-navigation__link" href="./main_menu.html">BUSCAR</a>
+            </nav>
+        </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title"><a style="color:black;text-decoration: none" href="./">ProfeAPP</a></span>
+            <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="./aportar.html">APORTAR</a>
+              <a class="mdl-navigation__link" href="./main_menu.html">BUSCAR</a>
+          </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="mdl-grid">
+                  <div style="margin: 0 auto"  class="mdl-cell mdl-cell--5-col">
+
+
+
+                     <!-- TODO ESTO ES LO PRINCIPAL -->
+                    <h1>Realiza tu aporte</h1>
+                    <h4>Llena este formulario con los datos de algun profesor si es que
+        no lo encuentras en nuestro foro principal.
+        Someteremos a validacion la informacion que aca aportes para asi 
+        poder tener un foro limpio sin informacion redundante de tal 
+        manera que todos encuentren de manera rapida la informacion que 
+        necesiten.
+        Todo aporte es anonimo.</h2>
+
+                    <form action="./aportar_form.php" method="post" enctype="multipart/form-data">
+                      <div style="width: 100%" class="mdl-textfield mdl-js-textfield">
+                        <input class="mdl-textfield__input" type="text" name="prof" id="sample1">
+                        <label class="mdl-textfield__label" for="sample1">PROFESOR ...</label>
+                      </div>
+                      <br>
+                      <div style="width: 100%" class="mdl-textfield mdl-js-textfield">
+                        <input class="mdl-textfield__input" type="text" name="univ" id="sample2">
+                        <label class="mdl-textfield__label" for="sample2">UNIVERSIDAD ...</label>
+                      </div>
+                      <br>
+                      <div style="width: 100%" class="mdl-textfield mdl-js-textfield">
+                        <input class="mdl-textfield__input" type="text" name="carr" id="sample3">
+                        <label class="mdl-textfield__label" for="sample3">CARRERA ...</label>
+                      </div>
+                      <br>
+                      <div style="width: 100%" class="mdl-textfield mdl-js-textfield">
+                        <input class="mdl-textfield__input" type="text" name="cur" id="sample4">
+                        <label class="mdl-textfield__label" for="sample4">CURSO ...</label>
+                      </div>
+                      <br>
+
+
+                      <div class="file_input_div" >
+                        <div class="file_input">
+                          <label class="image_input_button mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
+                            <i class="material-icons">file_upload</i>
+                            <input id="file_input_file" class="none"  name = "pic" type="file" />
+                          </label>
+                        </div>
+                        <div id="file_input_text_div" class="mdl-textfield mdl-js-textfield textfield-demo">
+                          <input class="file_input_text mdl-textfield__input" type="text" disabled readonly id="file_input_text" />
+                          <label class="mdl-textfield__label" for="file_input_text"></label>
+                        </div>
+                      </div>
+                      <br>
+
+                      <button style="width: 100%;"  class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                        SUBIR INFO!
+                      </button>
+
+
+                    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+</body>
+</html>

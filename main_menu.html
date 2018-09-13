@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <title>Bienvenido al foro</title>
+</head>
+<body>
+
+
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+              <span class="mdl-layout-title"><a style="color:white;text-decoration: none" href="./">ProfeAPP</a></span>
+              <div class="mdl-layout-spacer"></div>
+              <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <a class="mdl-navigation__link" href="./aportar.html">APORTAR</a>
+                <a class="mdl-navigation__link" href="./main_menu.html">BUSCAR</a>
+            </nav>
+        </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title"><a style="color:black;text-decoration: none" href="./">ProfeAPP</a></span>
+            <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="./aportar.html">APORTAR</a>
+              <a class="mdl-navigation__link" href="./main_menu.html">BUSCAR</a>
+          </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="mdl-grid">
+                  <div style="margin: 0 auto" class="mdl-cell mdl-cell--5-col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- TODO ESTO ES LO PRINCIPAL -->
+                    <form action="./prof_busqueda.php" method="post">
+                      <h1>Buscar profesores</h1>
+                      <div style="width: 100%;" class="mdl-textfield mdl-js-textfield">
+                        <input class="mdl-textfield__input" type="text" name="prof_search" id="sample1">
+                        <label class="mdl-textfield__label" for="sample1">Profesor ...</label>
+                      </div>
+                      <button style="width: 100%;"  class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                        Buscar
+                      </button>
+                    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
