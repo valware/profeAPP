@@ -8,20 +8,29 @@ analizar con que profesores matricularse.
 
 ### Pagina principal
 ---
+![inicio](/scrots/inicio.PNG)
 
 ### Boton "Aportar"
 ---
+![aporte](/scrots/aporte.PNG)
 
 ### Formulario
 ---
+![formulario](/scrots/formulario.PNG)
 
 ### Boton "Buscar"
 ---
+![buscar](/scrots/buscarprof.PNG)
 
 ### Resultados de la busqueda
 ---
+![resultado](/scrots/resulbus.PNG)
+![profile](/scrots/profile.PNG)
 
 ### Agregar comentario
 ---
+![comment](/scrots/addcomm.PNG)
+![thanks](/scrots/thnk.PNG)
+
 
 
